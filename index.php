@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/base.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/components.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css?v=<?php echo rand(); ?>">
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css?v=<?php echo rand(); ?>">
+    <link rel="stylesheet" type="text/css" href="assets/css/components.css?v=<?php echo rand(); ?>">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css?v=<?php echo rand(); ?>">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" media="print" onload="this.media='all'" />
     <title>Boilerplate</title>
 </head>
@@ -94,7 +94,7 @@ foreach ($queryExplode as $value) {
         </div>
     </footer>
 </body>
-<script type="module" src="assets/js/base.js"></script>
+<script type="module" src="assets/js/base.js?v=<?php echo rand(); ?>"></script>
 <script src="https://kit.fontawesome.com/6b035dc64a.js" crossorigin="anonymous"></script>
 
 </html>
