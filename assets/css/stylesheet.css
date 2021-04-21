@@ -1,0 +1,51 @@
+:root {
+    --theme: #e94e1a;
+    --accent: #96c11f;
+    --tertiary: #c9b500;
+}
+
+.c-hero {
+    background: linear-gradient(45deg, var(--theme), var(--accent));
+    color: white;
+}
+
+.c-hero__title-wrapper {
+    z-index: 0;
+    flex-direction: column;
+}
+
+.c-hero__title {
+    margin-bottom: 1.5rem;
+}
+
+.c-hero__subtitle {
+    /* font-style: italic; */
+    opacity: 0.8;
+    max-width: 30ch;
+}
+
+h3 {
+    /* border-left: 4px solid var(--theme);
+    padding-left: 0.6rem; */
+}
+
+
+@media (max-width: 798px) {
+    .c-hero__title {
+        margin-bottom: 0.5rem;
+        line-height: normal;
+    }
+    .c-hero__subtitle {
+        font-size: var(--size-500);
+        line-height: normal;
+    }
+}
+
+@media (max-width: 350px) {
+    .c-hero__title {
+        margin-bottom: 0;
+    }
+    .c-hero__subtitle {
+        font-size: var(--size-400);
+    }
+}
