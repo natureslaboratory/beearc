@@ -1,12 +1,15 @@
 :root {
-    --theme: #e94e1a;
+    --theme: #F19200;
     --accent: #96c11f;
     --tertiary: #c9b500;
 }
 
 .c-hero {
-    background: linear-gradient(45deg, var(--theme), var(--accent));
-    color: white;
+    background: white;
+    /* color: white; */
+    box-shadow: none;
+    height: 100vh;
+    color: var(--primary);
 }
 
 .c-hero__title-wrapper {
@@ -27,6 +30,10 @@
 h3 {
     /* border-left: 4px solid var(--theme);
     padding-left: 0.6rem; */
+}
+
+.c-hero__title-logo {
+    margin-right: 1rem;
 }
 
 
