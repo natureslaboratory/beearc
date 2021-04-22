@@ -94,6 +94,50 @@ foreach ($queryExplode as $value) {
         <!-- <h1 class="c-hero__title">BeeArc</h1> -->
     </header>
     <main>
+        <div class="l-block">
+            <div class="l-row l-row--centered">
+                <section class="col-12 col-md-8 c-section">
+                    <h3>Why the BeeArc</h3>
+                    <div class="c-section__content">
+                        <p>
+                            The catastrophic demise of the honey bee worldwide has awakened millions to the enormous economic impact they have on our lives - to the complex consequences of a world without them
+                        </p>
+                        <p>
+                            Paradoxically from these fears has emerged a broader understanding - almost a revelation - of the honey bee as a bee – ing with not just economic meaning but with social and community meaning - cultural and spiritual meaning.
+                        </p>
+                        <p>
+                            The BeeArc Project explores how the honey bee can inspire human beings in all three realms of life.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="l-block l-block--light-grey">
+            <div class="l-row l-row--centered">
+                <section class="col-12 col-md-8 c-section c-section--right">
+                    <h3 style="max-width: none">The Three Dimensions of the BeeArc</h3>
+                    <div class="c-section__content">
+                        <h4>Cultural and Spiritual Health</h4>
+                        <p>
+                            How we can support the Honey Bees Cultural and Spiritual Health?<br/>
+                            How the Honey Bee can support our Cultural and Spiritual health?
+                        </p>
+    
+                        <h4>Social and Community Health</h4>
+                        <p>
+                            How we can support the Honey Bees Social and Community health?<br/>
+                            How the Honey Bee can support our Social and Community health?
+                        </p>
+    
+                        <h4>Economic and Environmental Health</h4>
+                        <p>
+                            How we can support the Honey Bees Economic and Environmental health?<br/>
+                            How the Honey Bee can support our Economic and Environmental health?
+                        <p>
+                    </div>
+                </section>
+            </div>
+        </div>
 
     </main>
     <footer class="c-footer">

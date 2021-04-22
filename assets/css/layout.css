@@ -82,7 +82,7 @@
     fill: var(--secondary-color);
 }
 
-.l-block__right-align {
+.l-block--right-align {
     text-align: right;
 }
 
