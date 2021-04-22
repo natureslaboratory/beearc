@@ -64,6 +64,7 @@ export default class Animated {
 
     show() {
         this.node.classList.add("show");
+        
     }
 
     hide() {

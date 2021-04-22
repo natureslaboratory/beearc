@@ -46,6 +46,49 @@ foreach ($queryExplode as $value) {
                     <li class="c-navbar__element">
                         <a href="/" class="c-navbar__link c-navbar__link--hover-theme">Home</a>
                     </li>
+                    <li class="c-navbar__element">
+                        <a href="/" class="c-navbar__link c-navbar__link--hover-theme">BeeArc</a>
+                    </li>
+                    <li class="c-navbar__element">
+                        <button href="#" class="c-navbar__button c-navbar__link--hover-theme">
+                            The Hive
+                            <i class="fas fa-chevron-down c-icon c-icon--navbar" aria-hidden="true"></i>
+                        </button>
+                        <ul class="c-navbar__sub-menu c-super-menu">
+                            <li class="c-super-menu__item">
+                                <a href="/the-discovery-center" class="c-super-menu__title">
+                                    <h3>The Discovery Center</h3>
+                                    <p>The Mystery of the Honeybee</p>
+                                </a>
+                                <p>
+                                    An Exploration of how the Honey Bee has accompanied man from the beginning as a symbol of higher knowledge and learning,
+                                    how it has guided and informed him on his evolutionary journey and continues to inform him to the present time
+                                </p>
+                            </li>
+                            <li class="c-super-menu__item">
+                                <a href="/the-discovery-center" class="c-super-menu__title">
+                                    <h3>The BeeArc Research Centre</h3>
+                                    <p>A College of Future Living</p>
+                                </a>
+                                <p>
+                                    The College of Future Living is an open, living educational and  research exploration of the ways in which the honey bee can inform, 
+                                    guide and support human activity  socially, economically and culturally at a time of immense cultural change
+                                </p>
+                            </li>
+                            <li class="c-super-menu__item">
+                                <a href="/the-discovery-center" class="c-super-menu__title">
+                                    <h3>The BeeArc Sustainable Community</h3>
+                                    <p>Honeybee Village</p>
+                                </a>
+                                <p>
+                                    Developing a Model of Cooperative Work and Living in practice
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="c-navbar__element">
+                        <a href="/" class="c-navbar__link c-navbar__link--hover-theme">Community</a>
+                    </li>
                 </ul>
                 <div class="c-hamburger">
                     <button class="c-hamburger__button">
@@ -56,6 +99,49 @@ foreach ($queryExplode as $value) {
                     <ul class="c-hamburger__menu" data-type="slideover" data-expand="accordian">
                         <li class="c-hamburger__element">
                             <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">Home</a>
+                        </li>
+                        <li class="c-hamburger__element">
+                        <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">BeeArc</a>
+                        </li>
+                        <li class="c-hamburger__element">
+                            <button href="#" class="c-hamburger__element-button c-hamburger__link--hover-theme">
+                                <i class="fas fa-chevron-down c-icon c-icon--hamburger" aria-hidden="true"></i>
+                                The Hive
+                            </button>
+                            <ul class="c-hamburger__sub-menu c-super-menu c-super-menu--hamburger">
+                                <li class="c-super-menu__item c-super-menu__item--hamburger">
+                                    <a href="/the-discovery-center" class="c-super-menu__title c-hamburger__sub-link">
+                                        <h3>The Discovery Center</h3>
+                                        <p>The Mystery of the Honeybee</p>
+                                    </a>
+                                    <p>
+                                        An Exploration of how the Honey Bee has accompanied man from the beginning as a symbol of higher knowledge and learning,
+                                        how it has guided and informed him on his evolutionary journey and continues to inform him to the present time
+                                    </p>
+                                </li>
+                                <li class="c-super-menu__item c-super-menu__item--hamburger">
+                                    <a href="/the-discovery-center" class="c-super-menu__title c-hamburger__sub-link">
+                                        <h3>The BeeArc Research Centre</h3>
+                                        <p>A College of Future Living</p>
+                                    </a>
+                                    <p>
+                                        The College of Future Living is an open, living educational and  research exploration of the ways in which the honey bee can inform, 
+                                        guide and support human activity  socially, economically and culturally at a time of immense cultural change
+                                    </p>
+                                </li>
+                                <li class="c-super-menu__item c-super-menu__item--hamburger">
+                                    <a href="/the-discovery-center" class="c-super-menu__title c-hamburger__sub-link">
+                                        <h3>The BeeArc Sustainable Community</h3>
+                                        <p>Honeybee Village</p>
+                                    </a>
+                                    <p>
+                                        Developing a Model of Cooperative Work and Living in practice
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="c-hamburger__element">
+                            <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">Community</a>
                         </li>
                     </ul>
                 </div>
@@ -69,7 +155,6 @@ foreach ($queryExplode as $value) {
                 if ($isHome) {
                 ?>
                     <a href="/" class="c-hero__logo">
-                        <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In  -->
                         <?php include("./components/logo.php") ?>
                     </a>
                     <div class="c-hero__placeholder"></div>
@@ -79,19 +164,6 @@ foreach ($queryExplode as $value) {
             </div>
             <i class="fas fa-chevron-down c-scroll"></i>
         </div>
-        <!-- <div class="c-hero__logo-info l-flow">
-            <h2>Why the BeeArc</h2>
-            <p>
-                The catastrophic demise of the honey bee worldwide has awakened millions to the enormous economic impact they have on our lives - to the complex consequences of a world without them
-            </p>
-            <p>
-                Paradoxically from these fears has emerged a broader understanding - almost a revelation - of the honey bee as a bee – ing with not just economic meaning but with social and community meaning - cultural and spiritual meaning.
-            </p>
-            <p>
-                The BeeArc Project explores how the honey bee can inspire human beings in all three realms of life.
-            </p>
-        </div> -->
-        <!-- <h1 class="c-hero__title">BeeArc</h1> -->
     </header>
     <main>
         <div class="l-block">
@@ -119,19 +191,19 @@ foreach ($queryExplode as $value) {
                     <div class="c-section__content">
                         <h4 class="c-animated__child c-animated__child--fade-right" data-animation-delay="200">Cultural and Spiritual Health</h4>
                         <p class="c-animated__child c-animated__child--fade-right" data-animation-delay="200">
-                            How we can support the Honey Bees Cultural and Spiritual Health?<br/>
+                            How we can support the Honey Bees Cultural and Spiritual Health?<br />
                             How the Honey Bee can support our Cultural and Spiritual health?
                         </p>
-    
+
                         <h4 class="c-animated__child c-animated__child--fade-right" data-animation-delay="400">Social and Community Health</h4>
                         <p class="c-animated__child c-animated__child--fade-right" data-animation-delay="400">
-                            How we can support the Honey Bees Social and Community health?<br/>
+                            How we can support the Honey Bees Social and Community health?<br />
                             How the Honey Bee can support our Social and Community health?
                         </p>
-    
+
                         <h4 class="c-animated__child c-animated__child--fade-right" data-animation-delay="600">Economic and Environmental Health</h4>
                         <p class="c-animated__child c-animated__child--fade-right" data-animation-delay="600">
-                            How we can support the Honey Bees Economic and Environmental health?<br/>
+                            How we can support the Honey Bees Economic and Environmental health?<br />
                             How the Honey Bee can support our Economic and Environmental health?
                         <p>
                     </div>
