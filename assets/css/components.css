@@ -54,6 +54,10 @@
     justify-content: center;
 }
 
+.c-navbar--light-text {
+    color: white;
+}
+
 .c-navbar__element {
     position: relative;
     height: 100%;
@@ -159,6 +163,11 @@
 .c-navbar__sub-link--hover-invert:hover, .c-hamburger__link--hover-invert:hover, .c-hamburger__element-button--hover-invert:hover, .c-navbar__button--hover-invert:hover, .c-navbar__link--hover-invert:hover, .c-hamburger__sub-link--hover-invert:hover {
     color: var(--secondary-color);
     background: var(--primary-color);
+}
+
+.c-navbar__sub-link--hover-theme:hover, .c-hamburger__link--hover-theme:hover, .c-hamburger__element-button--hover-theme:hover, .c-navbar__button--hover-theme:hover, .c-navbar__link--hover-theme:hover, .c-hamburger__sub-link--hover-theme:hover {
+    color: var(--secondary-color);
+    background-color: var(--theme);
 }
 
 .c-navbar__button, .c-hamburger__element-button {
@@ -1489,6 +1498,86 @@ blockquote {
     object-fit: contain;
     /* max-height: 130px;
     max-width: 200px; */
+}
+
+.c-hero__mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.37);
+    /* backdrop-filter: brightness(140%); */
+}
+
+.c-hero__content {
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); */
+    /* height: 1000px; */
+}
+
+.c-hero__logo {
+}
+
+.c-logo {
+    height: min(100%, 50vh);
+    width: min(800px, 100vw);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-52%, -60%);
+}
+
+
+.c-scroll {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    color: white;
+    font-size: var(--size-600);
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    30% {
+        transform: translateY(0px);
+    }
+
+    70% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.c-logo__background {
+    fill: rgba(0, 0, 0, 0);
+}
+
+.c-logo__top {
+    fill: white;
+}
+
+.c-logo__bottom {
+    fill: #FFFFFF;
+}
+
+.c-logo__bottom--highlight {
+    /* fill: #F39200; */
 }
 
 /* Animations */

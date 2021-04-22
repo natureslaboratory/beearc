@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/components.css?v=<?php echo rand(); ?>">
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css?v=<?php echo rand(); ?>">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" media="print" onload="this.media='all'" />
+    <script src="https://kit.fontawesome.com/6b035dc64a.js" crossorigin="anonymous"></script>
     <title>Boilerplate</title>
 </head>
 
@@ -41,9 +42,9 @@ foreach ($queryExplode as $value) {
             }
             ?>
             <div class="c-navigation" data-type="dynamic" data-breakpoint="768">
-                <ul class="c-navbar c-navbar--clear">
+                <ul class="c-navbar c-navbar--clear c-navbar--light-text">
                     <li class="c-navbar__element">
-                        <a href="#" class="c-navbar__link c-navbar__link--hover-invert">Home</a>
+                        <a href="/" class="c-navbar__link c-navbar__link--hover-theme">Home</a>
                     </li>
                 </ul>
                 <div class="c-hamburger">
@@ -54,7 +55,7 @@ foreach ($queryExplode as $value) {
                     </button>
                     <ul class="c-hamburger__menu" data-type="slideover" data-expand="accordian">
                         <li class="c-hamburger__element">
-                            <a href="#" class="c-hamburger__link c-hamburger__link--hover-invert">Home</a>
+                            <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">Home</a>
                         </li>
                     </ul>
                 </div>
@@ -62,16 +63,23 @@ foreach ($queryExplode as $value) {
         </nav>
     </div>
     <header class="c-hero c-hero--feature-logo">
-        <?php
-        if ($isHome) {
-            ?>
-            <a href="/" class="c-hero__logo">
-            <img src="/resources/Asset 3@3x-100.jpg" class="c-hero__title-logo--feature">
-        </a>
-        <?php
-        }
-        ?>
-        <div class="c-hero__logo-info l-flow">
+        <div class="c-hero__mask">
+            <div class="c-hero__content">
+                <?php
+                if ($isHome) {
+                ?>
+                    <a href="/" class="c-hero__logo">
+                        <!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In  -->
+                        <?php include("./components/logo.php") ?>
+                    </a>
+                    <div class="c-hero__placeholder"></div>
+                <?php
+                }
+                ?>
+            </div>
+            <i class="fas fa-chevron-down c-scroll"></i>
+        </div>
+        <!-- <div class="c-hero__logo-info l-flow">
             <h2>Why the BeeArc</h2>
             <p>
                 The catastrophic demise of the honey bee worldwide has awakened millions to the enormous economic impact they have on our lives - to the complex consequences of a world without them
@@ -82,7 +90,7 @@ foreach ($queryExplode as $value) {
             <p>
                 The BeeArc Project explores how the honey bee can inspire human beings in all three realms of life.
             </p>
-        </div>
+        </div> -->
         <!-- <h1 class="c-hero__title">BeeArc</h1> -->
     </header>
     <main>
@@ -90,7 +98,7 @@ foreach ($queryExplode as $value) {
     </main>
     <footer class="c-footer">
         <div class="l-restrict">
-            A footer.
+            &#169; 2021
         </div>
     </footer>
 </body>
