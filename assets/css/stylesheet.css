@@ -4,6 +4,10 @@
     --tertiary: #c9b500;
 }
 
+main {
+    overflow-x: hidden;
+}
+
 .c-hero {
     background: white;
     /* color: white; */
