@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css?v=<?php echo rand(); ?>">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" media="print" onload="this.media='all'" />
     <script src="https://kit.fontawesome.com/6b035dc64a.js" crossorigin="anonymous"></script>
-    <title>Boilerplate</title>
+    <title>BeeArc</title>
 </head>
 
 <?php
