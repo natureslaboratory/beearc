@@ -1582,54 +1582,38 @@ blockquote {
 
 /* Animations */
 
-.c-animated {
-    transition: 500ms ease;
+[class*="c-animated"] {
+    transition: 750ms ease;
 }
 
-.c-animated--fade-up {
+[class*="--fade"] {
     opacity: 0;
-    transform: translateY(50px);
 }
 
-.c-animated--fade-up.show {
+[class*="--fade"].show {
     opacity: 1;
-    transform: translateY(0px);
 }
 
-.c-animated--fade-down {
-    opacity: 0;
+[class*="--fade-down"] {
     transform: translateY(-50px);
 }
 
-.c-animated--fade-left {
-    opacity: 0;
-    transform: translateX(-50px);
+[class*="--fade-up"] {
+    transform: translateY(50px);
 }
 
-.c-animated--fade-left.show {
-    opacity: 1;
-    transform: translateX(0px);
-}
-
-.c-animated--fade-right {
-    opacity: 0;
-    transform: translateX(50px);
-}
-
-.c-animated--fade-right.show {
-    opacity: 1;
-    transform: translateX(0px);
-}
-
-.c-animated--fade-down.show {
-    opacity: 1;
+:is([class*="--fade-up"], [class*="--fade-down"]).show {
     transform: translateY(0px);
 }
 
-.c-animated--fade {
-    opacity: 0;
+[class*="--fade-left"] {
+    transform: translateX(-50px);
 }
 
-.c-animated--fade.show {
-    opacity: 1;
+[class*="--fade-right"] {
+    transform: translateX(50px);
+}
+
+:is([class*="--fade-left"], [class*="--fade-right"]).show {
+    transform: translateX(0px);
 }
