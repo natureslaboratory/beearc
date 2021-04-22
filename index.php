@@ -96,7 +96,7 @@ foreach ($queryExplode as $value) {
     <main>
         <div class="l-block">
             <div class="l-row l-row--centered">
-                <section class="col-12 col-md-8 c-section">
+                <section class="col-12 col-md-8 c-section c-animated c-animated--fade-left">
                     <h3>Why the BeeArc</h3>
                     <div class="c-section__content">
                         <p>
@@ -114,7 +114,7 @@ foreach ($queryExplode as $value) {
         </div>
         <div class="l-block l-block--light-grey">
             <div class="l-row l-row--centered">
-                <section class="col-12 col-md-8 c-section c-section--right">
+                <section class="col-12 col-md-8 c-section c-section--right c-animated c-animated--fade-right">
                     <h3 style="max-width: none">The Three Dimensions of the BeeArc</h3>
                     <div class="c-section__content">
                         <h4>Cultural and Spiritual Health</h4>
