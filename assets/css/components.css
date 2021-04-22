@@ -264,6 +264,10 @@
     padding: 1rem 0;
 }
 
+.c-hamburger__button.c-hamburger__button--dark .c-hamburger__line {
+    background-color: black;
+}
+
 .c-hamburger__line {
     width: 15px;
     height: 2px;

@@ -36,6 +36,7 @@ main {
 
 .c-hamburger__line {
     background-color: white;
+    mix-blend-mode: difference;
 }
 
 h3 {
