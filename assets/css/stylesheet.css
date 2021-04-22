@@ -12,7 +12,7 @@
     color: var(--primary);
     background-image: url("/resources/sandy-millar-5ZVL9gVLWv4-unsplash_cropped.jpg");
     background-size: cover;
-    background-position: right top;
+    background-position: 80% 0%;
 }
 
 .c-hero__title-wrapper {
