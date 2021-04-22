@@ -1586,7 +1586,7 @@ blockquote {
 }
 
 .c-super-menu {
-    width: min(800px, 100vw);
+    width: min(700px, 100vw);
     color: black;
     text-align: right;
     display: flex;
@@ -1594,6 +1594,8 @@ blockquote {
     align-items: flex-end;
     padding: 2rem;
     gap: 2rem;
+    background-color: rgba(255, 255, 255, 0.705);
+    backdrop-filter: blur(8px);
 }
 
 .c-super-menu--hamburger {
@@ -1607,6 +1609,9 @@ blockquote {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    /* padding: 1rem;
+    padding-right: 1.5rem; */
+    width: 100%;
 }
 
 .c-super-menu__item--hamburger {
@@ -1621,7 +1626,7 @@ blockquote {
     padding-bottom: 1rem;
 }
 
-.c-super-menu__title {
+.c-super-menu__title-link {
     color: black;
     margin-bottom: 0.8rem;
     text-decoration: none;
@@ -1631,6 +1636,37 @@ blockquote {
     padding: 0;
     background-color: transparent;
     white-space: normal;
+}
+
+.c-super-menu__title {
+    max-width: 40ch;
+    margin-bottom: 0.3rem;
+}
+
+.c-super-menu__sub-title {
+    opacity: 0.8;
+}
+
+
+.c-super-menu__title:hover {
+    text-decoration: underline;
+}
+
+.c-super-menu__button {
+    align-self: unset;
+    padding: 0.3rem;
+    margin-top: 0.8rem;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    /* border-right: 2px solid var(--theme); */
+    color: var(--primary-color);
+}
+
+.c-super-menu__button:hover {
+    background-color: var(--theme);
+    border: 1px solid var(--theme);
+    color: white;
 }
 
 

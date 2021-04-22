@@ -56,33 +56,36 @@ foreach ($queryExplode as $value) {
                         </button>
                         <ul class="c-navbar__sub-menu c-super-menu">
                             <li class="c-super-menu__item">
-                                <a href="/the-discovery-center" class="c-super-menu__title">
-                                    <h3>The Discovery Center</h3>
-                                    <p>The Mystery of the Honeybee</p>
+                                <a href="/the-discovery-center" class="c-super-menu__title-link">
+                                    <h3 class="c-super-menu__title">The Discovery Center</h3>
+                                    <p class="c-super-menu__sub-title">The Mystery of the Honeybee</p>
                                 </a>
                                 <p>
                                     An Exploration of how the Honey Bee has accompanied man from the beginning as a symbol of higher knowledge and learning,
                                     how it has guided and informed him on his evolutionary journey and continues to inform him to the present time
                                 </p>
+                                <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
                             </li>
                             <li class="c-super-menu__item">
-                                <a href="/the-discovery-center" class="c-super-menu__title">
-                                    <h3>The BeeArc Research Centre</h3>
-                                    <p>A College of Future Living</p>
+                                <a href="/the-discovery-center" class="c-super-menu__title-link">
+                                    <h3 class="c-super-menu__title">The BeeArc Research Centre</h3>
+                                    <p class="c-super-menu__sub-title">A College of Future Living</p>
                                 </a>
                                 <p>
-                                    The College of Future Living is an open, living educational and  research exploration of the ways in which the honey bee can inform, 
-                                    guide and support human activity  socially, economically and culturally at a time of immense cultural change
+                                    The College of Future Living is an open, living educational and research exploration of the ways in which the honey bee can inform,
+                                    guide and support human activity socially, economically and culturally at a time of immense cultural change
                                 </p>
+                                <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
                             </li>
                             <li class="c-super-menu__item">
-                                <a href="/the-discovery-center" class="c-super-menu__title">
-                                    <h3>The BeeArc Sustainable Community</h3>
-                                    <p>Honeybee Village</p>
+                                <a href="/the-discovery-center" class="c-super-menu__title-link">
+                                    <h3 class="c-super-menu__title">The BeeArc Sustainable Community</h3>
+                                    <p class="c-super-menu__sub-title">Honeybee Village</p>
                                 </a>
                                 <p>
                                     Developing a Model of Cooperative Work and Living in practice
                                 </p>
+                                <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
                             </li>
                         </ul>
                     </li>
@@ -101,7 +104,7 @@ foreach ($queryExplode as $value) {
                             <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">Home</a>
                         </li>
                         <li class="c-hamburger__element">
-                        <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">BeeArc</a>
+                            <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">BeeArc</a>
                         </li>
                         <li class="c-hamburger__element">
                             <button href="#" class="c-hamburger__element-button c-hamburger__link--hover-theme">
@@ -110,33 +113,36 @@ foreach ($queryExplode as $value) {
                             </button>
                             <ul class="c-hamburger__sub-menu c-super-menu c-super-menu--hamburger">
                                 <li class="c-super-menu__item c-super-menu__item--hamburger">
-                                    <a href="/the-discovery-center" class="c-super-menu__title c-hamburger__sub-link">
-                                        <h3>The Discovery Center</h3>
-                                        <p>The Mystery of the Honeybee</p>
+                                    <a href="/the-discovery-center" class="c-super-menu__title-link c-hamburger__sub-link">
+                                        <h3 class="c-super-menu__title">The Discovery Center</h3>
+                                        <p class="c-super-menu__sub-title">The Mystery of the Honeybee</p>
                                     </a>
                                     <p>
                                         An Exploration of how the Honey Bee has accompanied man from the beginning as a symbol of higher knowledge and learning,
                                         how it has guided and informed him on his evolutionary journey and continues to inform him to the present time
                                     </p>
+                                    <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
                                 </li>
                                 <li class="c-super-menu__item c-super-menu__item--hamburger">
-                                    <a href="/the-discovery-center" class="c-super-menu__title c-hamburger__sub-link">
-                                        <h3>The BeeArc Research Centre</h3>
-                                        <p>A College of Future Living</p>
+                                    <a href="/the-discovery-center" class="c-super-menu__title-link c-hamburger__sub-link">
+                                        <h3 class="c-super-menu__title">The BeeArc Research Centre</h3>
+                                        <p class="c-super-menu__sub-title">A College of Future Living</p>
                                     </a>
                                     <p>
-                                        The College of Future Living is an open, living educational and  research exploration of the ways in which the honey bee can inform, 
-                                        guide and support human activity  socially, economically and culturally at a time of immense cultural change
+                                        The College of Future Living is an open, living educational and research exploration of the ways in which the honey bee can inform,
+                                        guide and support human activity socially, economically and culturally at a time of immense cultural change
                                     </p>
+                                    <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
                                 </li>
                                 <li class="c-super-menu__item c-super-menu__item--hamburger">
-                                    <a href="/the-discovery-center" class="c-super-menu__title c-hamburger__sub-link">
-                                        <h3>The BeeArc Sustainable Community</h3>
-                                        <p>Honeybee Village</p>
+                                    <a href="/the-discovery-center" class="c-super-menu__title-link c-hamburger__sub-link">
+                                        <h3 class="c-super-menu__title">The BeeArc Sustainable Community</h3>
+                                        <p class="c-super-menu__sub-title">Honeybee Village</p>
                                     </a>
                                     <p>
                                         Developing a Model of Cooperative Work and Living in practice
                                     </p>
+                                    <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
                                 </li>
                             </ul>
                         </li>
