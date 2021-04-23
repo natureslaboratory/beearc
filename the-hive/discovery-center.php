@@ -43,7 +43,7 @@ $headerVars = array(
     <div class="c-hive-section">
         <div class="l-block l-block--small l-block--no-top-padding">
             <div class="l-row l-row--centered">
-                <section class="c-hive-section col-12 col-lg-8">
+                <section class="c-hive-section col-12 col-lg-12">
                     <h2 class="c-hive-section__title">
                         A Journey Through The Threefold World Of The Honey Bee
                     </h2>
@@ -53,7 +53,7 @@ $headerVars = array(
         <div class="c-hive-section__sections">
             <div class="l-block l-block--small l-block--theme">
                 <div class="l-row l-row--centered">
-                    <section class="c-hive-section col-12 col-lg-8">
+                    <section class="c-hive-section col-12 col-lg-12">
                         <div class="c-hive-section__section l-flow">
                             <h3>The Cultural and Spiritual World of the Honey Bee</h3>
                             <p>
@@ -74,12 +74,12 @@ $headerVars = array(
             </div>
             <div class="l-block l-block--small">
                 <div class="l-row l-row--centered">
-                    <section class="c-hive-section col-12 col-lg-8">
+                    <section class="c-hive-section col-12 col-lg-12">
                         <div class="c-hive-section__section l-flow">
                             <h3>The Honey Bees Social and Community World</h3>
                             <p>
                                 How the Honey Bee has evolved a form of social organisation in so many ways beyond
-                                our own , how it works and how it can help human beings to develop healthier and
+                                our own, how it works and how it can help human beings to develop healthier and
                                 happier social well-being.
                             </p>
                         </div>
@@ -88,7 +88,7 @@ $headerVars = array(
             </div>
             <div class="l-block l-block--theme l-block--small">
                 <div class="l-row l-row--centered">
-                    <section class="c-hive-section col-12 col-lg-8">
+                    <section class="c-hive-section col-12 col-lg-12">
                         <div class="c-hive-section__section l-flow">
                             <h3>The Honey Bees Economic and Environmental World</h3>
                             <p>

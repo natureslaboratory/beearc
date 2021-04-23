@@ -27,7 +27,7 @@
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
-    "@natureslaboratory/animations": "^1.0.0",
+    "@natureslaboratory/animations": "^1.0.1",
     "@natureslaboratory/responsive-nav": "^1.0.1"
   }
 }
