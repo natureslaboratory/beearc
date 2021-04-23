@@ -171,7 +171,7 @@ foreach ($queryExplode as $value) {
                     <a href="/" class="c-hero__logo">
                         <?php include("./components/logo.php") ?>
                     </a>
-                    <p class="c-hero__content-tagline c-animated__child c-animated__child--fade" data-animation-delay="3000">a <a class="c-hero__content-link" href="http://www.threescompany.info/">Threes Company</a></p>
+                    <p class="c-hero__content-tagline c-animated__child c-animated__child--fade" data-animation-delay="3250">a <a class="c-hero__content-link" href="http://www.threescompany.info/">Threes Company</a></p>
                 <?php
                 }
                 ?>
