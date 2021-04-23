@@ -54,8 +54,8 @@ $headerVars = array(
         </div>
         <div class="c-hive-section__sections">
             <div class="l-block l-block--small l-block--theme">
-                <div class="l-row l-row--centered">
-                    <section class="c-hive-section col-12 col-lg-12">
+                <div class="l-row">
+                    <section class="c-hive-section col-12 col-md-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
                             <h3>The Cultural and Spiritual World of the Honey Bee</h3>
                             <p>
@@ -72,13 +72,43 @@ $headerVars = array(
                             </ul>
                         </div>
                     </section>
+                    <div class="col-12 col-md-6 c-accent-hex" style="position: relative;">
+                        <?php 
+                            BeeArcApi::include("../components/beearc_3_hexes.php", 
+                                [
+                                    "type" => "white", 
+                                    "style" => [
+                                        "top" => "0px", 
+                                        "right" => "0px",
+                                        "width" => "60%",
+                                        "height" => "auto"
+                                    ]
+                                ]
+                            );
+                        ?>
+                    </div>
                 </div>
             </div>
             <div class="l-block l-block--small">
                 <div class="l-row l-row--centered">
-                    <section class="c-hive-section col-12 col-lg-12">
+                    <div class="col-12 col-md-6 c-accent-hex" style="position: relative;">
+                        <?php 
+                            BeeArcApi::include("../components/beearc_2_hexes.php", 
+                                [
+                                    "type" => "theme", 
+                                    "style" => [
+                                        "top" => "-100px", 
+                                        "left" => "-40%",
+                                        "width" => "80%",
+                                        "height" => "auto"
+                                    ]
+                                ]
+                            );
+                        ?>
+                    </div>
+                    <section class="c-hive-section col-12 col-lg-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-right">
-                            <h3>The Honey Bees Social and Community World</h3>
+                            <h3>The Social and Community World of the Honey Bee</h3>
                             <p>
                                 How the Honey Bee has evolved a form of social organisation in so many ways beyond
                                 our own, how it works and how it can help human beings to develop healthier and
@@ -89,10 +119,10 @@ $headerVars = array(
                 </div>
             </div>
             <div class="l-block l-block--theme l-block--small">
-                <div class="l-row l-row--centered">
-                    <section class="c-hive-section col-12 col-lg-12">
+                <div class="l-row">
+                    <section class="c-hive-section col-12 col-lg-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
-                            <h3>The Honey Bees Economic and Environmental World</h3>
+                            <h3>The Economic and Environmental World of the Honey Bee</h3>
                             <p>
                                 How the Honey Bee has produced a uniquely cooperative way of working for the whole to
                                 produce unique foods and medicines for itself and for man. How it lives as an environmental
@@ -100,6 +130,22 @@ $headerVars = array(
                             </p>
                         </div>
                     </section>
+                    <div class="col-12 col-md-6 c-accent-hex" style="position: relative;">
+                        <?php 
+                            BeeArcApi::include("../components/beearc_2_hexes.php", 
+                                [
+                                    "type" => "white", 
+                                    "style" => [
+                                        "bottom" => "-70%", 
+                                        "right" => "-200px",
+                                        "width" => "40%",
+                                        "height" => "auto",
+                                        "transform" => "rotate(120deg)"
+                                    ]
+                                ]
+                            );
+                        ?>
+                    </div>
                 </div>
             </div>
         </div>

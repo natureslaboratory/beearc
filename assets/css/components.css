@@ -1730,6 +1730,10 @@ blockquote {
     margin: auto 0;
 }
 
+.c-image-text__text {
+
+}
+
 .c-text {
     display: flex;
     flex-direction: column;
@@ -1802,6 +1806,26 @@ blockquote {
 
 .c-hive-section .l-block:nth-child(odd) h3 {
     color: inherit;
+}
+
+.c-logo__two-hexes, .c-logo__one-hex, .c-logo__three-hexes {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.c-logo__two-hexes--white .c-logo__top {
+    fill: white;
+}
+
+.c-logo__two-hexes--theme .c-logo__top {
+    fill: var(--theme);
+}
+
+@media screen and (max-width: 1000px) {
+    .c-accent-hex {
+        display: none;
+    }
 }
 
 
