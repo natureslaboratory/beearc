@@ -17,23 +17,25 @@ $headerVars = array(
 <main>
     <div class="l-block l-block--small">
         <div class="l-row l-row--centered">
-            <section class="col-12 col-md-8 col-lg-6 c-animated c-section">
-                <h2 class="c-animated__child c-animated__child--fade" data-animation-delay="0">The Mystery of the Honeybee</h2>
-                <p  class="c-animated__child c-animated__child--fade" data-animation-delay="300">
+            <section class="col-12 col-md-12 col-lg-12 c-animated c-image-text">
+                <div class="c-image-text__text l-flow">
+                <h2 class="c-animated__child c-animated__child--fade" data-animation-delay="100">The Mystery of the Honeybee</h2>
+                <p  class="c-animated__child c-animated__child--fade" data-animation-delay="700">
                     Exploring the Social, Economic and Cultural Meaning of the honey bee and its relation with human beings.
                 </p>
-                <p  class="c-animated__child c-animated__child--fade" data-animation-delay="300">
+                <p  class="c-animated__child c-animated__child--fade" data-animation-delay="700">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
                     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
                     deserunt mollit anim id est laborum.
                 </p>
+                </div>
                 <img 
                     src="/resources/beearc_discovery.png" 
                     alt="Bee Arc Discovery Plan" 
-                    class="c-image c-animated__child c-animated__child--fade" 
-                    data-animation-delay="600"
+                    class="c-image c-animated__child c-animated__child--fade c-image-text__image" 
+                    data-animation-delay="1300"
                     style="border: 1px solid black"
                 >
             </section>
@@ -44,7 +46,7 @@ $headerVars = array(
         <div class="l-block l-block--small l-block--no-top-padding">
             <div class="l-row l-row--centered">
                 <section class="c-hive-section col-12 col-lg-12">
-                    <h2 class="c-hive-section__title">
+                    <h2 class="c-hive-section__title c-animated c-animated--fade" data-animation-delay="0">
                         A Journey Through The Threefold World Of The Honey Bee
                     </h2>
                 </section>
