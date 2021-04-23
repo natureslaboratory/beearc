@@ -6,7 +6,8 @@
         "title" => "The Research Center",
         "fullHeader" => false,
         "backgroundImage" => "/resources/mauro-tandoi-e1B8G8xEW5A-unsplash_cropped.jpg",
-        "backgroundPosition" => "50% 25%"
+        "backgroundPosition" => "50% 25%",
+        "overlayColour" => "rgba(0, 0, 0, 0.2)"
     )
 
 ?>

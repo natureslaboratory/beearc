@@ -3,7 +3,8 @@
 
     $headerVars = array(
         "title" => "Home",
-        "fullHeader" => true
+        "fullHeader" => true,
+        "overlayColour" => "rgba(0, 0, 0, 0.37)"
     );
     
     BeeArcApi::include("./components/header.php", $headerVars); 
@@ -14,13 +15,13 @@
                 <section class="col-12 col-md-5 c-section c-animated">
                     <h2 class="c-section__title c-section__title--centered c-animated__child c-animated__child--fade" data-animation-delay="0">Why the BeeArc</h2>
                     <div class="c-section__content">
-                        <p class="c-animated__child c-animated__child--fade" data-animation-delay="1250">
+                        <p class="c-animated__child c-animated__child--fade" data-animation-delay="750">
                             The catastrophic demise of the honey bee worldwide has awakened millions to the enormous economic impact they have on our lives - to the complex consequences of a world without them
                         </p>
-                        <p class="c-animated__child c-animated__child--fade" data-animation-delay="2500">
+                        <p class="c-animated__child c-animated__child--fade" data-animation-delay="1500">
                             Paradoxically from these fears has emerged a broader understanding - almost a revelation - of the honey bee as a bee – ing with not just economic meaning but with social and community meaning - cultural and spiritual meaning.
                         </p>
-                        <p class="c-animated__child c-animated__child--fade" data-animation-delay="3750">
+                        <p class="c-animated__child c-animated__child--fade" data-animation-delay="2250">
                             The BeeArc Project explores how the honey bee can inspire human beings in all three realms of life.
                         </p>
                     </div>
@@ -32,7 +33,7 @@
                 <section class="col-12 col-md-8 col-lg-12 c-animated c-section">
                     <h2 style="max-width: none" class="c-animated__child c-animated__child--fade c-section__title c-section__title--centered">The Three Dimensions of the BeeArc</h2>
                     <div class="c-section__content c-image-text">
-                        <img src="/resources/beearc_full_building.png" class="c-image-text__image">
+                        <img src="/resources/beearc_full_building.png" alt="Bee Arc Building Plan" class="c-image-text__image c-animated__child c-animated__child--fade" data-animation-delay="0">
                         <div class="c-image-text__text c-beearc-sections">
                             <div class="c-animated__child c-animated__child--fade-right c-beearc-section" data-animation-delay="750">
                                 <a href="/the-hive/discovery-center"><h3 class="c-beearc-section__title">The Discovery Center</h3></a>

@@ -5,7 +5,8 @@
     $headerVars = array(
         "title" => "The Discovery Center",
         "fullHeader" => false,
-        "backgroundImage" => "/resources/pexels-taryn-elliott-3889990.jpg"
+        "backgroundImage" => "/resources/pexels-taryn-elliott-3889990.jpg",
+        "overlayColour" => "linear-gradient(180deg, rgb(0, 0, 0, 0.6), transparent)"
     )
 
 ?>
