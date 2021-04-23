@@ -18,11 +18,11 @@ $headerVars = array(
     <div class="l-block l-block--small">
         <div class="l-row l-row--centered">
             <section class="col-12 col-md-8 col-lg-6 c-animated c-section">
-                <h2>The Mystery of the Honeybee</h2>
-                <p>
+                <h2 class="c-animated__child c-animated__child--fade" data-animation-delay="0">The Mystery of the Honeybee</h2>
+                <p  class="c-animated__child c-animated__child--fade" data-animation-delay="300">
                     Exploring the Social, Economic and Cultural Meaning of the honey bee and its relation with human beings.
                 </p>
-                <p>
+                <p  class="c-animated__child c-animated__child--fade" data-animation-delay="300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
@@ -33,7 +33,7 @@ $headerVars = array(
                     src="/resources/beearc_discovery.png" 
                     alt="Bee Arc Discovery Plan" 
                     class="c-image c-animated__child c-animated__child--fade" 
-                    data-animation-delay="0"
+                    data-animation-delay="600"
                     style="border: 1px solid black"
                 >
             </section>
@@ -54,7 +54,7 @@ $headerVars = array(
             <div class="l-block l-block--small l-block--theme">
                 <div class="l-row l-row--centered">
                     <section class="c-hive-section col-12 col-lg-12">
-                        <div class="c-hive-section__section l-flow">
+                        <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
                             <h3>The Cultural and Spiritual World of the Honey Bee</h3>
                             <p>
                                 An Exploration of how the Honey Bee has accompanied man from the beginning as a
@@ -75,7 +75,7 @@ $headerVars = array(
             <div class="l-block l-block--small">
                 <div class="l-row l-row--centered">
                     <section class="c-hive-section col-12 col-lg-12">
-                        <div class="c-hive-section__section l-flow">
+                        <div class="c-hive-section__section l-flow c-animated c-animated--fade-right">
                             <h3>The Honey Bees Social and Community World</h3>
                             <p>
                                 How the Honey Bee has evolved a form of social organisation in so many ways beyond
@@ -89,7 +89,7 @@ $headerVars = array(
             <div class="l-block l-block--theme l-block--small">
                 <div class="l-row l-row--centered">
                     <section class="c-hive-section col-12 col-lg-12">
-                        <div class="c-hive-section__section l-flow">
+                        <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
                             <h3>The Honey Bees Economic and Environmental World</h3>
                             <p>
                                 How the Honey Bee has produced a uniquely cooperative way of working for the whole to
