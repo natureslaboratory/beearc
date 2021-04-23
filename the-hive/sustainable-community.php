@@ -3,7 +3,7 @@
 <?php
 
     $headerVars = array(
-        "title" => "The BeeArc Sustainable Community",
+        "title" => "The Honeybee Village",
         "fullHeader" => false,
         "backgroundImage" => "/resources/luke-schobert-6Ppj8dvrv6g-unsplash_1080.jpg",
         "backgroundPosition" => "50% 40%",

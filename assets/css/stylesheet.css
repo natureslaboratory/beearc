@@ -1,5 +1,5 @@
 :root {
-    --theme: #F19200;
+    --theme: rgb(207, 97, 7);
     --accent: #96c11f;
     --tertiary: #c9b500;
 }
@@ -54,7 +54,7 @@ h3 {
     padding-left: 0.6rem; */
 }
 
-h2 {
+h2, h3 {
     font-weight: 400;
     color: rgb(207, 97, 7);
 }
@@ -87,6 +87,11 @@ a {
 .l-block {
     padding-top: 8rem;
     padding-bottom: 8rem;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1.2rem;
 }
 
 

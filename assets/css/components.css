@@ -169,6 +169,10 @@
     background-color: var(--theme);
 }
 
+.c-navbar__sub-link--hover-theme-text:hover, .c-hamburger__link--hover-theme-text:hover, .c-hamburger__element-button--hover-theme-text:hover, .c-navbar__button--hover-theme-text:hover, .c-navbar__link--hover-theme-text:hover, .c-hamburger__sub-link--hover-theme-text:hover {
+    color: var(--theme);
+}
+
 .c-navbar__button, .c-hamburger__element-button {
     border: none;
     font-family: var(--default-font);
@@ -528,6 +532,10 @@
     gap: 1rem;
 }
 
+.c-section--centered {
+    align-items: center;
+}
+
 .c-section__title {
     margin-bottom: 1rem;
 }
@@ -571,6 +579,16 @@
 
 .c-section__content--center {
     align-items: center;
+    text-align: center;
+}
+
+.c-section__sub-title {
+    margin-top: -1rem;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+.c-section__sub-title--centered {
     text-align: center;
 }
 
@@ -1760,6 +1778,32 @@ blockquote {
     font-weight: 600;
     opacity: 0.7;
 }
+
+.c-hive-section__sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-hive-section__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-hive-section__title {
+    color: var(--theme);
+    max-width: 30ch;
+    line-height: normal;
+}
+
+.c-hive-section .l-block:nth-child(even) .c-hive-section__section {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.c-hive-section .l-block:nth-child(odd) h3 {
+    color: inherit;
+}
+
 
 /* Animations */
 

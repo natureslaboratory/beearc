@@ -51,13 +51,13 @@ foreach ($queryExplode as $value) {
             <div class="c-navigation" data-type="dynamic" data-breakpoint="768">
                 <ul class="c-navbar c-navbar--clear c-navbar--light-text">
                     <li class="c-navbar__element">
-                        <a href="/" class="c-navbar__link c-navbar__link--hover-theme">Home</a>
+                        <a href="/" class="c-navbar__link c-navbar__link--hover-theme-text">Home</a>
                     </li>
                     <li class="c-navbar__element">
-                        <a href="/beearc" class="c-navbar__link c-navbar__link--hover-theme">BeeArc</a>
+                        <a href="/beearc" class="c-navbar__link c-navbar__link--hover-theme-text">BeeArc</a>
                     </li>
                     <li class="c-navbar__element">
-                        <button href="#" class="c-navbar__button c-navbar__link--hover-theme">
+                        <button href="#" class="c-navbar__button c-navbar__link--hover-theme-text">
                             The Hive
                             <i class="fas fa-chevron-down c-icon c-icon--navbar" aria-hidden="true"></i>
                         </button>
@@ -86,8 +86,8 @@ foreach ($queryExplode as $value) {
                             </li>
                             <li class="c-super-menu__item">
                                 <a href="/the-hive/sustainable-community" class="c-super-menu__title-link">
-                                    <h3 class="c-super-menu__title">The BeeArc Sustainable Community</h3>
-                                    <p class="c-super-menu__sub-title">Honeybee Village</p>
+                                    <h3 class="c-super-menu__title">The Honeybee Village</h3>
+                                    <p class="c-super-menu__sub-title">A Model of Small Scale Sustainable Community</p>
                                 </a>
                                 <p>
                                     Developing a Model of Cooperative Work and Living in practice
@@ -97,7 +97,7 @@ foreach ($queryExplode as $value) {
                         </ul>
                     </li>
                     <li class="c-navbar__element">
-                        <a href="/community" class="c-navbar__link c-navbar__link--hover-theme">Community</a>
+                        <a href="/community" class="c-navbar__link c-navbar__link--hover-theme-text">Community</a>
                     </li>
                 </ul>
                 <div class="c-hamburger">
@@ -108,13 +108,13 @@ foreach ($queryExplode as $value) {
                     </button>
                     <ul class="c-hamburger__menu" data-type="slideover" data-expand="accordian">
                         <li class="c-hamburger__element">
-                            <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">Home</a>
+                            <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme-text">Home</a>
                         </li>
                         <li class="c-hamburger__element">
-                            <a href="/beearc" class="c-hamburger__link c-hamburger__link--hover-theme">BeeArc</a>
+                            <a href="/beearc" class="c-hamburger__link c-hamburger__link--hover-theme-text">BeeArc</a>
                         </li>
                         <li class="c-hamburger__element">
-                            <button href="#" class="c-hamburger__element-button c-hamburger__link--hover-theme">
+                            <button href="#" class="c-hamburger__element-button c-hamburger__link--hover-theme-text">
                                 <i class="fas fa-chevron-down c-icon c-icon--hamburger" aria-hidden="true"></i>
                                 The Hive
                             </button>
@@ -143,8 +143,8 @@ foreach ($queryExplode as $value) {
                                 </li>
                                 <li class="c-super-menu__item c-super-menu__item--hamburger">
                                     <a href="/the-hive/sustainable-community" class="c-super-menu__title-link c-hamburger__sub-link">
-                                        <h3 class="c-super-menu__title">The BeeArc Sustainable Community</h3>
-                                        <p class="c-super-menu__sub-title">Honeybee Village</p>
+                                        <h3 class="c-super-menu__title">The Honeybee Village</h3>
+                                        <p class="c-super-menu__sub-title">A Model of Small Scale Sustainable Community</p>
                                     </a>
                                     <p>
                                         Developing a Model of Cooperative Work and Living in practice
@@ -154,7 +154,7 @@ foreach ($queryExplode as $value) {
                             </ul>
                         </li>
                         <li class="c-hamburger__element">
-                            <a href="/community" class="c-hamburger__link c-hamburger__link--hover-theme">Community</a>
+                            <a href="/community" class="c-hamburger__link c-hamburger__link--hover-theme-text">Community</a>
                         </li>
                     </ul>
                 </div>
