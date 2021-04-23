@@ -163,8 +163,8 @@ foreach ($queryExplode as $value) {
     </div>
     <?php if ($fullHeader) { ?>
     <header class="c-hero c-hero--dark c-hero--feature-logo">
-        <div class="c-hero__mask">
-            <div class="c-hero__content c-animated">
+        <div class="c-hero__mask c-animated">
+            <div class="c-hero__content">
                 <?php
                 if ($isHome) {
                 ?>
@@ -176,7 +176,7 @@ foreach ($queryExplode as $value) {
                 }
                 ?>
             </div>
-            <?php if ($fullHeader) { ?><i class="fas fa-chevron-down c-scroll"></i> <?php }?>
+            <i class="fas fa-chevron-down c-scroll c-animated__child c-animated__child--fade" data-animation-delay="3250"></i>
         </div>
     </header>
     <?php } else { ?>
