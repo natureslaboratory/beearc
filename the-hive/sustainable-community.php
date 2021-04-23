@@ -5,8 +5,9 @@
     $headerVars = array(
         "title" => "The BeeArc Sustainable Community",
         "fullHeader" => false,
-        "backgroundImage" => "/resources/mauro-tandoi-e1B8G8xEW5A-unsplash_cropped.jpg",
-        "backgroundPosition" => "80% 0%"
+        "backgroundImage" => "/resources/luke-schobert-6Ppj8dvrv6g-unsplash_1080.jpg",
+        "backgroundPosition" => "50% 40%",
+        "overlayColour" => "linear-gradient(180deg, rgb(0, 0, 0, 0.2), transparent)"
     )
 
 ?>

@@ -6,7 +6,8 @@
         "title" => "Community",
         "fullHeader" => false,
         "backgroundImage" => "/resources/mauro-tandoi-e1B8G8xEW5A-unsplash_cropped.jpg",
-        "backgroundPosition" => "80% 0%"
+        "backgroundPosition" => "80% 0%",
+        "overlayColour" => "rgba(0, 0, 0, 0.1"
     )
 
 ?>

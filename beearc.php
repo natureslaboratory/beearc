@@ -5,8 +5,9 @@
     $headerVars = array(
         "title" => "The BeeArc Building",
         "fullHeader" => false,
-        "backgroundImage" => "/resources/mauro-tandoi-e1B8G8xEW5A-unsplash_cropped.jpg",
-        "backgroundPosition" => "80% 0%"
+        "backgroundImage" => "/resources/carolien-van-oijen-SmJH91bGepk-unsplash_1080.jpg",
+        "backgroundPosition" => "80% 65%",
+        "overlayColour" => "rgba(0, 0, 0, 0.15"
     )
 
 ?>
