@@ -1,176 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+    include("./components/BeeArcApi.php"); 
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/base.css?v=<?php echo rand(); ?>">
-    <link rel="stylesheet" type="text/css" href="assets/css/layout.css?v=<?php echo rand(); ?>">
-    <link rel="stylesheet" type="text/css" href="assets/css/components.css?v=<?php echo rand(); ?>">
-    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css?v=<?php echo rand(); ?>">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" media="print" onload="this.media='all'" />
-    <script src="https://kit.fontawesome.com/6b035dc64a.js" crossorigin="anonymous"></script>
-    <title>BeeArc</title>
-</head>
-
-<?php
-
-$isHome = true;
-
-$queryExplode = explode("/", $_SERVER["QUERY_STRING"]);
-
-foreach ($queryExplode as $value) {
-    if ($value) {
-        $isHome = false;
-        break;
-    }
-}
-
-?>
-
-<body>
-    <div class="l-wrap l-wrap--absolute l-wrap--bg-secondary l-sticky-top">
-        <nav class="l-restrict c-banner">
-            <?php
-            if (!$isHome) {
-            ?>
-                <a href="/" class="c-banner__logo">
-                    <img src="/resources/Asset 3@3x-100.jpg" class="c-banner__logo-img">
-                </a>
-            <?php
-            }
-            ?>
-            <div class="c-navigation" data-type="dynamic" data-breakpoint="768">
-                <ul class="c-navbar c-navbar--clear c-navbar--light-text">
-                    <li class="c-navbar__element">
-                        <a href="/" class="c-navbar__link c-navbar__link--hover-theme">Home</a>
-                    </li>
-                    <li class="c-navbar__element">
-                        <a href="/" class="c-navbar__link c-navbar__link--hover-theme">BeeArc</a>
-                    </li>
-                    <li class="c-navbar__element">
-                        <button href="#" class="c-navbar__button c-navbar__link--hover-theme">
-                            The Hive
-                            <i class="fas fa-chevron-down c-icon c-icon--navbar" aria-hidden="true"></i>
-                        </button>
-                        <ul class="c-navbar__sub-menu c-super-menu">
-                            <li class="c-super-menu__item">
-                                <a href="/the-discovery-center" class="c-super-menu__title-link">
-                                    <h3 class="c-super-menu__title">The Discovery Center</h3>
-                                    <p class="c-super-menu__sub-title">The Mystery of the Honeybee</p>
-                                </a>
-                                <p>
-                                    An Exploration of how the Honey Bee has accompanied man from the beginning as a symbol of higher knowledge and learning,
-                                    how it has guided and informed him on his evolutionary journey and continues to inform him to the present time
-                                </p>
-                                <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
-                            </li>
-                            <li class="c-super-menu__item">
-                                <a href="/the-discovery-center" class="c-super-menu__title-link">
-                                    <h3 class="c-super-menu__title">The BeeArc Research Centre</h3>
-                                    <p class="c-super-menu__sub-title">A College of Future Living</p>
-                                </a>
-                                <p>
-                                    The College of Future Living is an open, living educational and research exploration of the ways in which the honey bee can inform,
-                                    guide and support human activity socially, economically and culturally at a time of immense cultural change
-                                </p>
-                                <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
-                            </li>
-                            <li class="c-super-menu__item">
-                                <a href="/the-discovery-center" class="c-super-menu__title-link">
-                                    <h3 class="c-super-menu__title">The BeeArc Sustainable Community</h3>
-                                    <p class="c-super-menu__sub-title">Honeybee Village</p>
-                                </a>
-                                <p>
-                                    Developing a Model of Cooperative Work and Living in practice
-                                </p>
-                                <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="c-navbar__element">
-                        <a href="/" class="c-navbar__link c-navbar__link--hover-theme">Community</a>
-                    </li>
-                </ul>
-                <div class="c-hamburger">
-                    <button class="c-hamburger__button">
-                        <div class="c-hamburger__line"></div>
-                        <div class="c-hamburger__line"></div>
-                        <div class="c-hamburger__line"></div>
-                    </button>
-                    <ul class="c-hamburger__menu" data-type="slideover" data-expand="accordian">
-                        <li class="c-hamburger__element">
-                            <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">Home</a>
-                        </li>
-                        <li class="c-hamburger__element">
-                            <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">BeeArc</a>
-                        </li>
-                        <li class="c-hamburger__element">
-                            <button href="#" class="c-hamburger__element-button c-hamburger__link--hover-theme">
-                                <i class="fas fa-chevron-down c-icon c-icon--hamburger" aria-hidden="true"></i>
-                                The Hive
-                            </button>
-                            <ul class="c-hamburger__sub-menu c-super-menu c-super-menu--hamburger">
-                                <li class="c-super-menu__item c-super-menu__item--hamburger">
-                                    <a href="/the-discovery-center" class="c-super-menu__title-link c-hamburger__sub-link">
-                                        <h3 class="c-super-menu__title">The Discovery Center</h3>
-                                        <p class="c-super-menu__sub-title">The Mystery of the Honeybee</p>
-                                    </a>
-                                    <p>
-                                        An Exploration of how the Honey Bee has accompanied man from the beginning as a symbol of higher knowledge and learning,
-                                        how it has guided and informed him on his evolutionary journey and continues to inform him to the present time
-                                    </p>
-                                    <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
-                                </li>
-                                <li class="c-super-menu__item c-super-menu__item--hamburger">
-                                    <a href="/the-discovery-center" class="c-super-menu__title-link c-hamburger__sub-link">
-                                        <h3 class="c-super-menu__title">The BeeArc Research Centre</h3>
-                                        <p class="c-super-menu__sub-title">A College of Future Living</p>
-                                    </a>
-                                    <p>
-                                        The College of Future Living is an open, living educational and research exploration of the ways in which the honey bee can inform,
-                                        guide and support human activity socially, economically and culturally at a time of immense cultural change
-                                    </p>
-                                    <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
-                                </li>
-                                <li class="c-super-menu__item c-super-menu__item--hamburger">
-                                    <a href="/the-discovery-center" class="c-super-menu__title-link c-hamburger__sub-link">
-                                        <h3 class="c-super-menu__title">The BeeArc Sustainable Community</h3>
-                                        <p class="c-super-menu__sub-title">Honeybee Village</p>
-                                    </a>
-                                    <p>
-                                        Developing a Model of Cooperative Work and Living in practice
-                                    </p>
-                                    <a class="c-super-menu__button c-button" href="/the-discovery-center">More</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="c-hamburger__element">
-                            <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme">Community</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <header class="c-hero c-hero--feature-logo">
-        <div class="c-hero__mask">
-            <div class="c-hero__content">
-                <?php
-                if ($isHome) {
-                ?>
-                    <a href="/" class="c-hero__logo">
-                        <?php include("./components/logo.php") ?>
-                    </a>
-                    <div class="c-hero__placeholder"></div>
-                <?php
-                }
-                ?>
-            </div>
-            <i class="fas fa-chevron-down c-scroll"></i>
-        </div>
-    </header>
+    $headerVars = array(
+        "title" => "Home",
+        "fullHeader" => true
+    );
+    
+    BeeArcApi::include("./components/header.php", $headerVars); 
+ ?>
     <main>
         <div class="l-block">
             <div class="l-row l-row--centered">
@@ -216,15 +53,6 @@ foreach ($queryExplode as $value) {
                 </section>
             </div>
         </div>
-
     </main>
-    <footer class="c-footer">
-        <div class="l-restrict">
-            &#169; 2021
-        </div>
-    </footer>
-</body>
-<script type="module" src="assets/js/base.js?v=<?php echo rand(); ?>"></script>
-<script src="https://kit.fontawesome.com/6b035dc64a.js" crossorigin="anonymous"></script>
 
-</html>
+    <?php include("./components/footer.php"); ?>

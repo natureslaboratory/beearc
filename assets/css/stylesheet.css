@@ -8,15 +8,25 @@ main {
     overflow-x: hidden;
 }
 
-.c-hero {
+.c-hero.c-hero--feature-logo {
     background: white;
     /* color: white; */
     box-shadow: none;
     height: 100vh;
-    color: var(--primary);
+    color: white;
     background-image: url("/resources/sandy-millar-5ZVL9gVLWv4-unsplash_cropped.jpg");
     background-size: cover;
     background-position: 80% 0%;
+}
+
+.c-hero {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.c-hero h1 {
+    line-height: normal;
+    text-align: center;
 }
 
 .c-hero__title-wrapper {
