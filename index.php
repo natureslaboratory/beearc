@@ -68,7 +68,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                     </a>
                     <img src="/resources/beearc_discovery.png" alt="BeeArc Building" class="c-section__image">
                     <div class="c-beearc-section__sub-sections">
-                        <div class="c-beearc-section__sub-section">
+                        <div class="c-beearc-section__sub-section l-flow">
                             <h4 class="c-beearc-section__sub-title">The Honey Bees Cultural and Spiritual World</h4>
                             <p>
                                 An Exploration of how the Honey Bee has accompanied man from the beginning as a symbol of higher
@@ -83,14 +83,14 @@ BeeArcApi::include("./components/header.php", $headerVars);
                                 <li>Islam and the honey bee</li>
                             </ul>
                         </div>
-                        <div class="c-beearc-section__sub-section">
+                        <div class="c-beearc-section__sub-section l-flow">
                             <h4 class="c-beearc-section__sub-title">The Honey Bees Social and Community World</h4>
                             <p>
                                 How the Honey Bee has evolved a form of social organisation in so many ways beyond our own,
                                 how it works and how it can help human beings to develop healthier and happier social well-being.
                             </p>
                         </div>
-                        <div class="c-beearc-section__sub-section">
+                        <div class="c-beearc-section__sub-section l-flow">
                             <h4 class="c-beearc-section__sub-title">The Honey Bees Economic and Environmental World</h4>
                             <p>
                                 How the Honey Bee has produced a uniquely cooperative way of working for the whole to produce unique
@@ -112,7 +112,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                     </p>
                     <img src="/resources/beearc_college.png" alt="BeeArc Building" class="c-section__image">
                     <div class="c-beearc-section__sub-sections">
-                        <div class="c-beearc-section__sub-section">
+                        <div class="c-beearc-section__sub-section l-flow">
                             <h4 class="c-beearc-section__sub-title">Where do the Cultural and Spiritual Worlds of Man and Honey Bee meet?</h4>
                             <ul>
                                 <li>The Egyptian Mystery Centres – the Logos Mysteries and the honey bee</li>
@@ -123,7 +123,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                                 <li>Creation of Theatre , Exhibition and Performance Centre</li>
                             </ul>
                         </div>
-                        <div class="c-beearc-section__sub-section">
+                        <div class="c-beearc-section__sub-section l-flow">
                             <h4 class="c-beearc-section__sub-title">Where do the Social and Community Worlds of Man and the Honey Bee meet?</h4>
                             <ul>
                                 <li>How bees have evolved</li>
@@ -137,7 +137,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                                 <li>Exploration of new forms of community living</li>
                             </ul>
                         </div>
-                        <div class="c-beearc-section__sub-section">
+                        <div class="c-beearc-section__sub-section l-flow">
                             <h4 class="c-beearc-section__sub-title">Where do the Economic and Environmental Worlds of Man and the Honey Bee meet?</h4>
                             <ul>
                                 <li>The role of the Honey Bee in Food Production</li>
@@ -153,7 +153,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                         <h3 class="c-h3 c-h3--theme c-beearc-section__title">The BeeArc Sustainable Community - The Honeybee Village</h3>
                     </a>
                     <div class="c-beearc-section__sub-sections">
-                        <div class="c-beearc-section__sub-section">
+                        <div class="c-beearc-section__sub-section l-flow">
                             <p>
                                 Developing a Model of Cooperative Work and Living in practice
                             </p>
