@@ -3,14 +3,12 @@ const hero = document.getElementsByClassName("c-hero")[0];
 const container = document.getElementsByClassName("l-wrap")[0]
 
 if (hamburger && hero && container) {
-    console.log("gotem")
     
     window.addEventListener("scroll", () => {
         const hamRect = hamburger.getBoundingClientRect();
         const heroRect = hero.getBoundingClientRect();
         
         let hamPosition = ((hamRect.bottom - hamRect.top) / 2) + hamRect.top;
-        console.log(hamPosition);
         if (hamPosition > heroRect.bottom && hamPosition !== 0) {
             hamburger.classList.add("c-hamburger__button--dark");
             container.classList.remove("l-wrap--absolute");
