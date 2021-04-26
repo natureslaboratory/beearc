@@ -1670,10 +1670,12 @@ blockquote {
     /* padding: 1rem;
     padding-right: 1.5rem; */
     width: 100%;
+    text-align: right;
 }
 
 .c-super-menu__item--hamburger {
     padding: 0 1rem;
+    max-width: 400px;
 }
 
 .c-super-menu__item--hamburger:first-child {

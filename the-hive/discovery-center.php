@@ -54,8 +54,8 @@ $headerVars = array(
         </div>
         <div class="c-hive-section__sections">
             <div class="l-block l-block--small l-block--theme">
-                <div class="l-row">
-                    <section class="c-hive-section col-12 col-md-6">
+                <div class="l-row l-row--centered">
+                    <section class="c-hive-section col-12 col-sm-8 col-md-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
                             <h3 class="c-h3">The Cultural and Spiritual World of the Honey Bee</h3>
                             <p>
@@ -106,7 +106,7 @@ $headerVars = array(
                             );
                         ?>
                     </div>
-                    <section class="c-hive-section col-12 col-lg-6">
+                    <section class="c-hive-section col-12 col-sm-8 col-md-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-right">
                             <h3 class="c-h3 c-h3--theme">The Social and Community World of the Honey Bee</h3>
                             <p>
@@ -119,8 +119,8 @@ $headerVars = array(
                 </div>
             </div>
             <div class="l-block l-block--theme l-block--small">
-                <div class="l-row">
-                    <section class="c-hive-section col-12 col-lg-6">
+                <div class="l-row l-row--centered">
+                    <section class="c-hive-section col-12 col-sm-8 col-md-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
                             <h3 class="c-h3">The Economic and Environmental World of the Honey Bee</h3>
                             <p>

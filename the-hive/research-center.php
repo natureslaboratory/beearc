@@ -53,8 +53,8 @@
         </div> -->
         <div class="c-hive-section__sections">
             <div class="l-block l-block--small l-block--secondary">
-                <div class="l-row">
-                    <section class="c-hive-section col-12 col-md-6">
+                <div class="l-row l-row--centered">
+                    <section class="c-hive-section col-12 col-sm-8 col-md-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
                             <h3 class="c-h3">Where do the  Cultural and Spiritual Worlds of Man and Honey Bee meet?</h3>
                             <ul>
@@ -101,7 +101,7 @@
                             );
                         ?>
                     </div>
-                    <section class="c-hive-section col-12 col-lg-6">
+                    <section class="c-hive-section col-12 col-sm-8 col-md-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-right">
                             <h3 class="c-h3 c-h3--secondary">Where do the Social and Community Worlds of Man and the Honey Bee meet?</h3>
                             <ul>
@@ -120,8 +120,8 @@
                 </div>
             </div>
             <div class="l-block l-block--secondary l-block--small">
-                <div class="l-row">
-                    <section class="c-hive-section col-12 col-lg-6">
+                <div class="l-row l-row--centered">
+                    <section class="c-hive-section col-12 col-sm-8 col-md-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
                             <h3 class="c-h3">Where do the Economic and Environmental Worlds of Man and the Honey Bee meet?</h3>
                             <ul>
