@@ -286,6 +286,7 @@
     overflow: hidden;
     width: 100%;
     transition: 150ms;
+    margin: 0;
 }
 
 .c-hamburger__sub-link {
@@ -600,7 +601,7 @@ blockquote {
 
 .c-footer {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
     padding: 1rem var(--side-padding);
 }
 
@@ -1550,9 +1551,13 @@ blockquote {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -55%);
     display: flex;
     flex-direction: column;
+}
+
+.c-hero__content--raised {
+    transform: translate(-50%, -60%);
 }
 
 .c-hero__logo {
@@ -1573,6 +1578,7 @@ blockquote {
 .c-logo {
     height: auto;
     width: min(600px, 90vw);
+    max-height: 50vh;
 }
 
 .c-logo--small {
@@ -1800,8 +1806,8 @@ blockquote {
 }
 
 .c-hive-section .l-block:nth-child(even) .c-hive-section__section {
-    align-items: flex-end;
-    text-align: right;
+    /* align-items: flex-end;
+    text-align: right; */
 }
 
 .c-hive-section .l-block:nth-child(odd) h3 {
@@ -1820,6 +1826,10 @@ blockquote {
 
 .c-logo__two-hexes--theme .c-logo__top {
     fill: var(--theme);
+}
+
+.c-logo__two-hexes--secondary .c-logo__top {
+    fill: var(--secondary-color);
 }
 
 @media screen and (max-width: 1000px) {

@@ -99,6 +99,11 @@
     color: white;
 }
 
+.l-block--secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
 .l-block--dark {
     background-color: var(--primary-color);
     color: white;

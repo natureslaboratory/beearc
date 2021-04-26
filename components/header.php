@@ -164,7 +164,7 @@ foreach ($queryExplode as $value) {
     <?php if ($fullHeader) { ?>
     <header class="c-hero c-hero--dark c-hero--feature-logo">
         <div class="c-hero__mask c-animated" <?php if ($overlayColour) echo "style='background: $overlayColour'" ?>>
-            <div class="c-hero__content">
+            <div class="c-hero__content c-hero__content--raised">
                 <?php
                 if ($isHome) {
                 ?>

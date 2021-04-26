@@ -19,7 +19,7 @@ $headerVars = array(
         <div class="l-row l-row--centered">
             <section class="col-12 col-md-12 col-lg-12 c-animated c-image-text">
                 <div class="c-image-text__text l-flow">
-                <h2 class="c-animated__child c-animated__child--fade" data-animation-delay="100">The Mystery of the Honeybee</h2>
+                <h2 class="c-h2 c-h2--theme c-animated__child c-animated__child--fade" data-animation-delay="100">The Mystery of the Honeybee</h2>
                 <p  class="c-animated__child c-animated__child--fade" data-animation-delay="700">
                     Exploring the Social, Economic and Cultural Meaning of the honey bee and its relation with human beings.
                 </p>
@@ -57,7 +57,7 @@ $headerVars = array(
                 <div class="l-row">
                     <section class="c-hive-section col-12 col-md-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
-                            <h3>The Cultural and Spiritual World of the Honey Bee</h3>
+                            <h3 class="c-h3">The Cultural and Spiritual World of the Honey Bee</h3>
                             <p>
                                 An Exploration of how the Honey Bee has accompanied man from the beginning as a
                                 symbol of higher knowledge and learning, how it has guided and informed him on his
@@ -108,7 +108,7 @@ $headerVars = array(
                     </div>
                     <section class="c-hive-section col-12 col-lg-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-right">
-                            <h3>The Social and Community World of the Honey Bee</h3>
+                            <h3 class="c-h3 c-h3--theme">The Social and Community World of the Honey Bee</h3>
                             <p>
                                 How the Honey Bee has evolved a form of social organisation in so many ways beyond
                                 our own, how it works and how it can help human beings to develop healthier and
@@ -122,7 +122,7 @@ $headerVars = array(
                 <div class="l-row">
                     <section class="c-hive-section col-12 col-lg-6">
                         <div class="c-hive-section__section l-flow c-animated c-animated--fade-left">
-                            <h3>The Economic and Environmental World of the Honey Bee</h3>
+                            <h3 class="c-h3">The Economic and Environmental World of the Honey Bee</h3>
                             <p>
                                 How the Honey Bee has produced a uniquely cooperative way of working for the whole to
                                 produce unique foods and medicines for itself and for man. How it lives as an environmental

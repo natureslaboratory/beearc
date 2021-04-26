@@ -1,7 +1,6 @@
 :root {
     --theme: rgb(207, 97, 7);
-    --accent: #96c11f;
-    --tertiary: #c9b500;
+    --secondary-color: #2F5597;
 }
 
 main {
@@ -54,10 +53,30 @@ h3 {
     padding-left: 0.6rem; */
 }
 
-h2, h3 {
+.c-h2 {
     font-weight: 400;
-    color: rgb(207, 97, 7);
 }
+
+.c-h2--theme {
+    color: var(--theme);
+}
+
+.c-h2--secondary {
+    color: var(--secondary-color);
+}
+
+.c-h3 {
+    font-weight: 400;
+}
+
+.c-h3--theme {
+    color: var(--theme);
+}
+
+.c-h3--secondary {
+    color: var(--secondary-color);
+}
+
 
 a {
     color: inherit;
@@ -93,6 +112,10 @@ a {
 ul {
     list-style-type: disc;
     margin-left: 1.2rem;
+}
+
+li {
+    text-align: left;
 }
 
 
