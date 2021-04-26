@@ -599,6 +599,10 @@
     text-align: center;
 }
 
+.c-section__image {
+    width: 100%;
+}
+
 blockquote {
     padding-left: var(--size-600);
     border-left: 4px solid;
@@ -1782,12 +1786,12 @@ blockquote {
     gap: 2rem;
 }
 
-.c-beearc-section {
+/* .c-beearc-section {
     text-align: right;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
+} */
 
 .c-beearc-section__title {
     margin-bottom: 0.3rem;
@@ -1846,6 +1850,14 @@ blockquote {
     .c-accent-hex {
         display: none;
     }
+}
+
+.c-feature-paragraph {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--theme);
+    line-height: 40px;
+    font-weight: lighter;
 }
 
 

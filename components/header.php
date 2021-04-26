@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php 
+<?php
 
 $root = $_SERVER["HTTPS"] ? "https://" : "http://" . $_SERVER["HTTP_HOST"] . "/";
 
 ?>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,8 +42,8 @@ foreach ($queryExplode as $value) {
             if (!$isHome) {
             ?>
                 <a href="/" class="c-banner__logo">
-                    <?php 
-                        include("logo_small.php");
+                    <?php
+                    include("logo_small.php");
                     ?>
                 </a>
             <?php
@@ -162,45 +163,40 @@ foreach ($queryExplode as $value) {
         </nav>
     </div>
     <?php if ($fullHeader) { ?>
-    <header class="c-hero c-hero--dark c-hero--feature-logo">
-        <div class="c-hero__mask c-animated" <?php if ($overlayColour) echo "style='background: $overlayColour'" ?>>
-            <div class="c-hero__content c-hero__content--raised">
-                <?php
-                if ($isHome) {
-                ?>
+        <header class="c-hero c-hero--dark c-hero--feature-logo">
+            <div class="c-hero__mask c-animated" <?php if ($overlayColour) echo "style='background: $overlayColour'" ?>>
+                <div class="c-hero__content c-hero__content--raised">
                     <div href="/" class="c-hero__logo">
                         <?php include("./components/logo.php") ?>
-                </div>
+                    </div>
                     <p class="c-hero__content-tagline c-animated__child c-animated__child--fade" data-animation-delay="3250">a <a class="c-hero__content-link" href="http://www.threescompany.info/">Threes Company</a></p>
-                <?php
-                }
-                ?>
-            </div>
-            <i class="fas fa-chevron-down c-scroll c-animated__child c-animated__child--fade" data-animation-delay="3250"></i>
-        </div>
-    </header>
-    <?php } else { ?>
-    <?php
-    $style = "";
-    if ($backgroundImage) {;
-        $style = "style='background-image: url(\"$backgroundImage\")";
-    } 
-    if ($backgroundPosition) {
-        $style .= "; background-position: $backgroundPosition'";
-    } else {
-        $style .= "'";
-    }
 
-    ?>
-    <header <?php echo $style ?> class="c-hero">
-        <?php if ($backgroundImage) { ?>
-        <div class="c-hero__mask" <?php if ($overlayColour) echo "style='background: $overlayColour'" ?>>
-        <?php } ?>
-            <div class="c-hero__content">
-                <h1><?php echo $title ?></h1>
+                </div>
+                <i class="fas fa-chevron-down c-scroll c-animated__child c-animated__child--fade" data-animation-delay="3250"></i>
             </div>
-        <?php if ($backgroundImage) { ?> 
-        </div>
-        <?php } ?>
-    </header>
+        </header>
+    <?php } else { ?>
+        <?php
+        $style = "";
+        if ($backgroundImage) {;
+            $style = "style='background-image: url(\"$backgroundImage\")";
+        }
+        if ($backgroundPosition) {
+            $style .= "; background-position: $backgroundPosition'";
+        } else {
+            $style .= "'";
+        }
+
+        ?>
+        <header <?php echo $style ?> class="c-hero">
+            <?php if ($backgroundImage) { ?>
+                <div class="c-hero__mask" <?php if ($overlayColour) echo "style='background: $overlayColour'" ?>>
+                <?php } ?>
+                <div class="c-hero__content">
+                    <h1><?php echo $title ?></h1>
+                </div>
+                <?php if ($backgroundImage) { ?>
+                </div>
+            <?php } ?>
+        </header>
     <?php } ?>

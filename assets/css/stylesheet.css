@@ -77,6 +77,15 @@ h3 {
     color: var(--secondary-color);
 }
 
+h4 {
+    font-size: var(--size-400);
+    opacity: 0.8;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
 
 a {
     color: inherit;
