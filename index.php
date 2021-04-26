@@ -66,7 +66,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
             </section>
         </div>
     </div>
-    <div class="l-block--small l-block--no-top-padding">
+    <div class="l-block l-block--small l-block--no-vertical-padding">
         <div class="l-row l-row--centered">
             <section class="col-12 col-md-8 col-lg-10 l-flow">
                 <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title">
