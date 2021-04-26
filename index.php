@@ -114,7 +114,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                         </div>
                     </div>
                 </div>
-                <div class="c-beearc-section c-columns l-flow">
+                <div class="c-beearc-section c-columns">
                     <div class="c-column">
                         <a id="research-center">
                             <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Research Center - The College of Future Living</h3>
@@ -165,7 +165,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                         </div>
                     </div>
                 </div>
-                <div class="c-beearc-section l-flow">
+                <div class="c-beearc-section">
                     <a id="sustainable-community">
                         <h3 class="c-h3 c-h3--theme c-beearc-section__title">The BeeArc Sustainable Community - The Honeybee Village</h3>
                     </a>
