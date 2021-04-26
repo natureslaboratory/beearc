@@ -1547,6 +1547,7 @@ blockquote {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.37);
+    fill: white;
     /* backdrop-filter: brightness(140%); */
 }
 
