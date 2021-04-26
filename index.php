@@ -23,10 +23,10 @@ BeeArcApi::include("./components/header.php", $headerVars);
             </section>
         </div>
     </div>
-    <div class="l-block l-block--light-grey">
+    <div class="l-block l-block--theme">
         <div class="l-row l-row--centered">
             <section class="col-12 col-md-5 c-section c-animated">
-                <h2 class="c-h2 c-h2--theme c-section__title c-section__title--centered c-animated__child c-animated__child--fade" data-animation-delay="0">Why the BeeArc</h2>
+                <h2 class="c-h2 c-section__title c-section__title--centered c-animated__child c-animated__child--fade" data-animation-delay="0">Why the BeeArc</h2>
                 <div class="c-section__content">
                     <p class="c-animated__child c-animated__child--fade" data-animation-delay="750">
                         The catastrophic demise of the honey bee worldwide has awakened millions to the enormous economic impact they have on our lives - to the complex consequences of a world without them
@@ -66,12 +66,18 @@ BeeArcApi::include("./components/header.php", $headerVars);
             </section>
         </div>
     </div>
-    <div class="l-block l-block--small l-block--no-top-padding">
+    <div class="l-block--small l-block--no-top-padding">
         <div class="l-row l-row--centered">
             <section class="col-12 col-md-8 col-lg-10 l-flow">
                 <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title">
                     The Three Dimensions of the BeeArc
                 </h2>
+            </section>
+        </div>
+    </div>
+    <div class="l-block l-block--small l-block--light-grey">
+        <div class="l-row l-row--centered">
+            <section class="col-12 col-md-8 col-lg-10 l-flow">
                 <div class="c-beearc-section c-columns">
                     <div class="c-column">
                         <a id="discovery-center">
@@ -114,6 +120,12 @@ BeeArcApi::include("./components/header.php", $headerVars);
                         </div>
                     </div>
                 </div>
+            </section>
+        </div>
+    </div>
+    <div class="l-block l-block--small">
+        <div class="l-row l-row--centered">
+            <section class="col-12 col-md-8 col-lg-10 l-flow">
                 <div class="c-beearc-section c-columns">
                     <div class="c-column">
                         <a id="research-center">
@@ -165,6 +177,12 @@ BeeArcApi::include("./components/header.php", $headerVars);
                         </div>
                     </div>
                 </div>
+            </section>
+        </div>
+    </div>
+    <div class="l-block l-block--small l-block--light-grey">
+        <div class="l-row l-row--centered">
+            <section class="col-12 col-md-8 col-lg-10 l-flow">
                 <div class="c-beearc-section">
                     <a id="sustainable-community">
                         <h3 class="c-h3 c-h3--theme c-beearc-section__title">The BeeArc Sustainable Community - The Honeybee Village</h3>

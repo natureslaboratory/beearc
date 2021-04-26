@@ -151,6 +151,10 @@ a {
     margin-top: 0.3rem;
 }
 
+.c-section {
+    gap: 0;
+}
+
 .c-beearc-section img {
     margin-top: 1em;
     border: 1px solid rgb(221, 221, 221);
