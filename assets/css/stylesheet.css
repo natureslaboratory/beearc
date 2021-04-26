@@ -112,6 +112,71 @@ a {
     margin-bottom: 0;
 }
 
+.c-section__title {
+    margin-bottom: 2.5rem;
+}
+
+.c-beearc-section {
+    margin-bottom: 4rem;
+}
+
+.c-beearc-section__title {
+    margin-bottom: 1rem;
+}
+
+.c-beearc-section__sub-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.c-beearc-section:last-child {
+    margin-bottom: 0;
+}
+
+.c-beearc-section ul {
+    margin-top: 0.5rem;
+}
+
+.c-beearc-section li {
+    margin-bottom: 0.3rem;
+}
+
+.c-beearc-section li:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .c-h3 {
+        padding-top: 45px;
+        margin-top: -45px;
+    }
+}
+
+
+
+
+.c-navbar__sub-menu {
+    background-color: white;
+    list-style: none;
+    color: black;
+}
+
+.c-navbar__sub-menu.show {
+    background-color: white;
+    opacity: 0.8;
+}
+
+
+.c-navbar__sub-element {
+    background-color: transparent;
+}
+
+.c-navbar__sub-link {
+    background-color: transparent;
+}
+
 .l-block {
     padding-top: 8rem;
     padding-bottom: 8rem;

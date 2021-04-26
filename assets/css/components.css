@@ -561,6 +561,10 @@
     text-align: center;
 }
 
+.c-section--roomy {
+    gap: 2rem;
+}
+
 .c-section--horizontal-center {
     align-items: center;
 }

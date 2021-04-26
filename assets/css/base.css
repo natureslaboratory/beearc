@@ -73,7 +73,7 @@ h2 {
 }
 
 h3 {
-    font-size: var(--size-600);
+    font-size: var(--size-500);
     line-height: var(--size-600);
 }
 
@@ -138,6 +138,11 @@ p, i {
     h2 {
         font-size: var(--size-700);
         line-height: var(--size-700);
+    }
+
+    h3 {
+        font-size: var(--size-600);
+        line-height: var(--size-600);
     }
 
     figcaption {
