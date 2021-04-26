@@ -25,12 +25,16 @@
 .l-wrap--bg-white {
     background-color: white;
     z-index: 10;
+    fill: black;
+    box-shadow: var(--box-shadow);
 }
 
 .l-wrap--absolute {
     position: absolute;
     background-color: transparent;
     border-bottom: none;
+    fill: white;
+    box-shadow: none;
 }
 
 .l-restrict {
@@ -79,7 +83,7 @@
     margin: 0 auto;
     padding: 4rem 1rem;
     width: 100%;
-    fill: var(--secondary-color);
+    fill: white;
 }
 
 .l-block--right-align {

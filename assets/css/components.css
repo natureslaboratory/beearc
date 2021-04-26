@@ -20,6 +20,12 @@
     height: 90%;
 }
 
+@media screen and (max-width: 768px) {
+    .c-banner {
+        height: 45px;
+    }
+}
+
 .c-navigation {
     display: flex;
     align-items: center;
@@ -1625,6 +1631,7 @@ blockquote {
 
 .c-logo__top {
     fill: white;
+    fill: inherit;
 }
 
 .c-logo__bottom {

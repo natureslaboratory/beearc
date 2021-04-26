@@ -35,7 +35,7 @@
                     alt="Bee Arc College" 
                     class="c-image c-animated__child c-animated__child--fade c-image-text__image" 
                     data-animation-delay="1300"
-                    style="border: 1px solid black"
+                    style="border: 1px solid #e8e8e8"
                 >
             </section>
         </div>

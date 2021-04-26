@@ -35,7 +35,7 @@ foreach ($queryExplode as $value) {
 ?>
 
 <body>
-    <div class="l-wrap l-wrap--absolute l-wrap--bg-secondary l-sticky-top">
+    <div class="l-wrap l-wrap--absolute l-wrap--bg-white l-sticky-top">
         <nav class="l-restrict c-banner">
             <?php
             if (!$isHome) {

@@ -36,7 +36,7 @@ $headerVars = array(
                     alt="Bee Arc Discovery Plan" 
                     class="c-image c-animated__child c-animated__child--fade c-image-text__image" 
                     data-animation-delay="1300"
-                    style="border: 1px solid black"
+                    style="border: 1px solid #e8e8e8"
                 >
             </section>
         </div>
@@ -46,7 +46,7 @@ $headerVars = array(
         <div class="l-block l-block--small l-block--no-top-padding">
             <div class="l-row l-row--centered">
                 <section class="c-hive-section col-12 col-lg-12">
-                    <h2 class="c-hive-section__title c-animated c-animated--fade" data-animation-delay="0">
+                    <h2 class="c-h2 c-h2--theme c-hive-section__title c-animated c-animated--fade" data-animation-delay="0">
                         A Journey Through The Threefold World Of The Honey Bee
                     </h2>
                 </section>
