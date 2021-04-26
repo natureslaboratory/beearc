@@ -1864,6 +1864,12 @@ blockquote {
     font-weight: lighter;
 }
 
+.c-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+    gap: 2rem 4rem;
+}
+
 
 /* Animations */
 

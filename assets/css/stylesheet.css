@@ -117,18 +117,18 @@ a {
 }
 
 .c-beearc-section {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 .c-beearc-section__title {
     margin-bottom: 1rem;
+    max-width: 500px;
 }
 
 .c-beearc-section__sub-sections {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin-top: 2rem;
 }
 
 .c-beearc-section:last-child {
@@ -140,7 +140,7 @@ a {
 }
 
 .c-beearc-section li {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.1rem;
 }
 
 .c-beearc-section li:last-child {
@@ -149,6 +149,11 @@ a {
 
 .c-beearc-section p {
     margin-top: 0.3rem;
+}
+
+.c-beearc-section img {
+    margin-top: 1em;
+    border: 1px solid rgb(221, 221, 221);
 }
 
 @media screen and (max-width: 768px) {

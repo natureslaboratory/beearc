@@ -14,7 +14,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
         <div class="l-row l-row--centered">
             <section class="col-12 col-md-5 c-section c-animated">
                 <div class="c-section__content">
-                    <p class="c-animated__child c-animated__child--fade c-feature-paragraph" data-animation-delay="750">
+                    <p class="c-animated__child c-animated__child--fade c-feature-paragraph" data-animation-delay="0">
                         BeeArc - The Nature of the Future, is a unique and innovative multi-dimensional tourist attraction
                         which responds to and works directly into our changing social, cultural and economic
                         environment.
@@ -44,31 +44,46 @@ BeeArcApi::include("./components/header.php", $headerVars);
     </div>
     <div class="l-block">
         <div class="l-row l-row--centered">
-            <section class="col-12 col-md-8 col-lg-5 l-flow">
-                <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title c-section__title--centered">The BeeArc Building</h2>
-                <div class="c-beearc-section l-flow">
-                    <img src="/resources/beearc_full_building_small.png" alt="BeeArc Building" class="c-section__image">
-                    <h3 class="c-h3 c-h3--theme">Carbon Conscious Design</h3>
-                    <p>
-                        The BeeArc will aim to be a ‘Net Zero Carbon Building’; an ‘Active‘ building that
-                        will generate the power supply to run the facility, plus surplus energy,
-                        resulting in a Net Zero Carbon Building from both construction and operational use.
-                    </p>
-                    <p>
-                        The design will include renewable energy technologies, modern environmental methods of
-                        construction along with embracing the principles of biodiversity and biophilic architecture.
-                    </p>
+            <section class="col-12 col-md-8 col-lg-10 l-flow">
+                <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title">The BeeArc Building</h2>
+                <div class="c-columns">
+                    <div class="c-column">
+                        <img src="/resources/beearc_full_building_small.png" alt="BeeArc Building" class="c-section__image">
+                    </div>
+                    <div class="c-beearc-section l-flow c-column">
+                        <h3 class="c-h3 c-h3--theme">Carbon Conscious Design</h3>
+                        <p>
+                            The BeeArc will aim to be a ‘Net Zero Carbon Building’; an ‘Active‘ building that
+                            will generate the power supply to run the facility, plus surplus energy,
+                            resulting in a Net Zero Carbon Building from both construction and operational use.
+                        </p>
+                        <p>
+                            The design will include renewable energy technologies, modern environmental methods of
+                            construction along with embracing the principles of biodiversity and biophilic architecture.
+                        </p>
+                    </div>
                 </div>
-                <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title c-section__title--centered">
+            </section>
+        </div>
+    </div>
+    <div class="l-block l-block--small l-block--no-top-padding">
+        <div class="l-row l-row--centered">
+            <section class="col-12 col-md-8 col-lg-10 l-flow">
+                <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title">
                     The Three Dimensions of the BeeArc
                 </h2>
-                <div class="c-beearc-section l-flow">
-                    <a id="discovery-center">
-                        <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Discovery Center - The Mystery of the Honeybee</h3>
-                    </a>
-                    <img src="/resources/beearc_discovery.png" alt="BeeArc Building" class="c-section__image">
-                    <div class="c-beearc-section__sub-sections">
-                        <div class="c-beearc-section__sub-section l-flow">
+                <div class="c-beearc-section c-columns">
+                    <div class="c-column">
+                        <a id="discovery-center">
+                            <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Discovery Center - The Mystery of the Honeybee</h3>
+                        </a>
+                        <p>
+                            Exploring the Social, Economic and Cultural Meaning of the honey bee and its relation with human being.
+                        </p>
+                        <img src="/resources/beearc_discovery.png" alt="BeeArc Building" class="c-section__image">
+                    </div>
+                    <div class="c-beearc-section__sub-sections c-column">
+                        <div class="c-beearc-section__sub-section">
                             <h4 class="c-beearc-section__sub-title">The Honey Bees Cultural and Spiritual World</h4>
                             <p>
                                 An Exploration of how the Honey Bee has accompanied man from the beginning as a symbol of higher
@@ -99,19 +114,21 @@ BeeArcApi::include("./components/header.php", $headerVars);
                         </div>
                     </div>
                 </div>
-                <div class="c-beearc-section l-flow">
-                    <a id="research-center">
-                        <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Research Center - The College of Future Living</h3>
-                    </a>
-                    <p>
-                        The College of Future Living is an open, living educational and research exploration of the ways in which the honey
-                        bee can inform, guide and support human activity socially, economically and culturally at a time of immense cultural change.
-                    </p>
-                    <p>
-                        The centre will contain 100 seat theatre/conference/exhibition space along with practical and active learning spaces.
-                    </p>
-                    <img src="/resources/beearc_college.png" alt="BeeArc Building" class="c-section__image">
-                    <div class="c-beearc-section__sub-sections">
+                <div class="c-beearc-section c-columns l-flow">
+                    <div class="c-column">
+                        <a id="research-center">
+                            <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Research Center - The College of Future Living</h3>
+                        </a>
+                        <p>
+                            The College of Future Living is an open, living educational and research exploration of the ways in which the honey
+                            bee can inform, guide and support human activity socially, economically and culturally at a time of immense cultural change.
+                        </p>
+                        <p>
+                            The centre will contain 100 seat theatre/conference/exhibition space along with practical and active learning spaces.
+                        </p>
+                        <img src="/resources/beearc_college.png" alt="BeeArc Building" class="c-section__image">
+                    </div>
+                    <div class="c-beearc-section__sub-sections c-column">
                         <div class="c-beearc-section__sub-section l-flow">
                             <h4 class="c-beearc-section__sub-title">Where do the Cultural and Spiritual Worlds of Man and Honey Bee meet?</h4>
                             <ul>
