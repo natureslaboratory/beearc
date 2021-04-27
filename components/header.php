@@ -55,7 +55,7 @@ foreach ($queryExplode as $value) {
                         <a href="/" class="c-navbar__link c-navbar__link--hover-theme-text">Home</a>
                     </li>
                     <li class="c-navbar__element">
-                        <a href="/beearc" class="c-navbar__link c-navbar__link--hover-theme-text">BeeArc</a>
+                        <a href="/#beearc" class="c-navbar__link c-navbar__link--hover-theme-text">BeeArc</a>
                     </li>
                     <li class="c-navbar__element">
                         <button href="#" class="c-navbar__button c-navbar__link--hover-theme-text">
@@ -95,7 +95,7 @@ foreach ($queryExplode as $value) {
                             <a href="/" class="c-hamburger__link c-hamburger__link--hover-theme-text">Home</a>
                         </li>
                         <li class="c-hamburger__element">
-                            <a href="/beearc" class="c-hamburger__link c-hamburger__link--hover-theme-text">BeeArc</a>
+                            <a href="/#beearc" class="c-hamburger__link c-hamburger__link--hover-theme-text">BeeArc</a>
                         </li>
                         <li class="c-hamburger__element">
                             <button href="#" class="c-hamburger__element-button c-hamburger__link--hover-theme-text">

@@ -15,6 +15,11 @@
 <?php BeeArcApi::include("./components/header.php", $headerVars); ?>
 
 <main>
+    <div class="l-block l-block--small">
+        <div class="l-row">
+            
+        </div>
+    </div>
 
 </main>
 

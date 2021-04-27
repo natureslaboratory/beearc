@@ -26,7 +26,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
     <div class="l-block l-block--theme">
         <div class="l-row l-row--centered">
             <section class="col-12 col-md-5 c-section c-animated">
-                <h2 class="c-h2 c-section__title c-animated__child c-animated__child--fade" data-animation-delay="0">Why the BeeArc</h2>
+                <h2 class="c-h2 c-section__title c-animated__child c-animated__child--fade" data-animation-delay="0">Why the BeeArc?</h2>
                 <div class="c-section__content">
                     <p class="c-animated__child c-animated__child--fade" data-animation-delay="750">
                         The catastrophic demise of the honey bee worldwide has awakened millions to the enormous economic impact they have on our lives - to the complex consequences of a world without them
@@ -45,7 +45,9 @@ BeeArcApi::include("./components/header.php", $headerVars);
     <div class="l-block">
         <div class="l-row l-row--centered">
             <section class="col-12 col-md-8 col-lg-10 l-flow">
-                <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title">The BeeArc Building</h2>
+                <a id="beearc">
+                    <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title">The BeeArc Building</h2>
+                </a>
                 <div class="c-columns">
                     <div class="c-column">
                         <img src="/resources/beearc_full_building_small.png" alt="BeeArc Building" class="c-section__image">
@@ -205,6 +207,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                         </div>
                     </div>
                 </div>
+            </section>
         </div>
     </div>
 </main>
