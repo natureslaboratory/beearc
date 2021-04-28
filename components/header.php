@@ -138,7 +138,16 @@ foreach ($queryExplode as $value) {
                     <div href="/" class="c-hero__logo">
                         <?php include("./components/logo.php") ?>
                     </div>
-                    <p class="c-hero__content-tagline c-animated__child c-animated__child--fade" data-animation-delay="3250">a <a class="c-hero__content-link" href="http://www.threescompany.info/">Threes Company</a></p>
+                    <a href="http://www.threescompany.info/" target="_blank" class="c-hero__threes-logo-wrapper">
+                        <!-- <div class="c-hero__threes-logo-hex">
+                            <?php //include("./components/beearc_1_hex.php") ?>
+                        </div> -->
+                        <?php include("./components/threes_company_logo.php") ?>
+                        <p class="c-hero__threes-logo-text">
+                            in association with </br> <strong>Threes Company</strong>
+                        </p>
+                    </a>
+                    <!-- <p class="c-hero__content-tagline c-animated__child c-animated__child--fade" data-animation-delay="3250">a <a class="c-hero__content-link" href="http://www.threescompany.info/">Threes Company</a></p> -->
 
                 </div>
                 <i class="fas fa-chevron-down c-scroll c-animated__child c-animated__child--fade" data-animation-delay="3250"></i>

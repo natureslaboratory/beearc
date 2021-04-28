@@ -1870,6 +1870,38 @@ blockquote {
     gap: 2rem 4rem;
 }
 
+.c-hero__threes-logo-wrapper {
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-self: center;
+}
+
+.c-hero__threes-logo-hex {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.c-hero__threes-logo-hex .c-logo__one-hex {
+    width: 100%;
+    height: 100%;
+    fill: white;
+    position: relative;
+    opacity: 0;
+}
+
+.c-threes-company {
+    z-index: 10;
+    fill: white;
+    height: auto;
+    width: 100px;
+    aspect-ratio: 1 / 1;
+}
+
 
 /* Animations */
 
