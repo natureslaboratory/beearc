@@ -15,7 +15,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
             <section class="col-12 col-md-5 c-section c-animated">
                 <div class="c-section__content">
                     <p class="c-animated__child c-animated__child--fade c-feature-paragraph" data-animation-delay="0">
-                        BeeArc - The Nature of the Future, is a unique and innovative multi-dimensional tourist attraction
+                        BeeArc - The Nature of the Future, is a unique and innovative multi&#8209;dimensional tourist attraction
                         which responds to and works directly into our changing social, cultural and economic
                         environment.
                     </p>
@@ -207,6 +207,15 @@ BeeArcApi::include("./components/header.php", $headerVars);
                         </div>
                     </div>
                 </div>
+            </section>
+        </div>
+    </div>
+    <div class="l-block l-block--small">
+        <div class="l-row l-row--centered">
+            <section class="col-12 col-md-8 col-lg-10 l-flow">
+                <h2 style="max-width: none" class="c-h2 c-h2--theme c-section__title">
+                    Community
+                </h2>
             </section>
         </div>
     </div>
