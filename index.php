@@ -83,7 +83,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                 <div class="c-beearc-section c-columns">
                     <div class="c-column">
                         <a id="discovery-center">
-                            <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Discovery Center - The Mystery of the Honeybee</h3>
+                            <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Discovery Centre - The Mystery of the Honeybee</h3>
                         </a>
                         <p>
                             Exploring the Social, Economic and Cultural Meaning of the honey bee and its relation with human being.
@@ -131,7 +131,7 @@ BeeArcApi::include("./components/header.php", $headerVars);
                 <div class="c-beearc-section c-columns">
                     <div class="c-column">
                         <a id="research-center">
-                            <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Research Center - The College of Future Living</h3>
+                            <h3 class="c-h3 c-h3--theme c-beearc-section__title">The Research Centre - The College of Future Living</h3>
                         </a>
                         <p>
                             The College of Future Living is an open, living educational and research exploration of the ways in which the honey
