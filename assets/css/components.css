@@ -1564,7 +1564,7 @@ blockquote {
     /* grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); */
     /* height: 1000px; */
     position: absolute;
-    top: 50%;
+    top: calc(45vh + 60px);
     left: 50%;
     transform: translate(-50%, -55%);
     display: flex;
@@ -1592,7 +1592,7 @@ blockquote {
 
 .c-logo {
     height: auto;
-    width: min(600px, 90vw);
+    width: min(600px, min(90vw, 60vh));
     max-height: 50vh;
 }
 
