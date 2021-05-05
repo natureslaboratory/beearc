@@ -138,7 +138,7 @@ foreach ($queryExplode as $value) {
                     <div href="/" class="c-hero__logo">
                         <?php include("./components/logo.php") ?>
                     </div>
-                    <a href="http://www.threescompany.info/" target="_blank" class="c-hero__threes-logo-wrapper">
+                    <a href="http://www.threescompany.info/" target="_blank" class="c-hero__threes-logo-wrapper c-animated__child c-animated__child--fade" data-animation-delay="3250">
                         <!-- <div class="c-hero__threes-logo-hex">
                             <?php //include("./components/beearc_1_hex.php") ?>
                         </div> -->
